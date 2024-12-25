@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles where the application code is not correctly copied into the image. The original Dockerfile attempts to run a Python application, but the application files (main.py and requirements.txt) are missing. The solution adds a COPY command with the correct source directory to copy the necessary files into the image.
